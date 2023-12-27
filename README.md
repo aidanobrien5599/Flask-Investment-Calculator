@@ -3,7 +3,7 @@ I developed it using Flask and Jinja, and it incorporates the Pandas and Matplot
 In order to run the app, make sure that a virtual environment is created and that the dependencies are 
 installed. Then follow the following steps.
 1. Create Sqllite database: in the terminal, type the following lines:
-  >>> python3
+  - python3
   >>> from app import app, db
   >>> app.app_context().push()
   >>> db.create_all()
